@@ -3,7 +3,7 @@ import java.util.Set;
 
 public class WordsChecker {
     private String text;
-    Set<String> setWords = new HashSet<>();
+    private Set<String> setWords = new HashSet<>();
 
     public WordsChecker(String text) {
         this.text = text;
